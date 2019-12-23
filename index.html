@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TeeTimer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="timer">
+            <input type="text" name="minutes" id="minutes" value="1">
+            <input type="text" name="seconds" id="seconds" value="0">
+        </div>
+        <div class="controlls">
+            <ul>
+                <li><button id="start">Start</button></li>
+                <li><button id="pause">Pause</button></li>
+                <li><button id="stop">Stop</button></li>
+            </ul>
+        </div>
+        <div class="quickstart">
+            <ul>
+                <li><button class="quick-start-btn" time-data="02:00">2 Minutes</button></li>
+                <li><button class="quick-start-btn" time-data="03:00">3 Minutes</button></li>
+                <li><button class="quick-start-btn" time-data="05:00">5 Minutes</button></li>
+                <li><button class="quick-start-btn" time-data="06:00">6 Minutes</button></li>
+                <li><button class="quick-start-btn" time-data="07:00">7 Minutes</button></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
